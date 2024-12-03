@@ -1,26 +1,21 @@
 
-------------------------------------------------------------------------------
-CrystalDiskMark 8.0.6 x64 (C) 2007-2024 hiyohiyo
-                                  Crystal Dew World: https://crystalmark.info/
-------------------------------------------------------------------------------
+-----------------------------------------------------------------------
+CrystalDiskMark 6.0.2 x64 (C) 2007-2018 hiyohiyo
+                          Crystal Dew World : https://crystalmark.info/
+-----------------------------------------------------------------------
 * MB/s = 1,000,000 bytes/s [SATA/600 = 600,000,000 bytes/s]
 * KB = 1000 bytes, KiB = 1024 bytes
 
-[Read]
-  SEQ    1MiB (Q=  8, T= 1):  3552.308 MB/s [   3387.7 IOPS] <  2350.70 us>
-  SEQ    1MiB (Q=  1, T= 1):  2313.528 MB/s [   2206.4 IOPS] <   452.81 us>
-  RND    4KiB (Q= 32, T= 1):   771.946 MB/s [ 188463.4 IOPS] <   166.89 us>
-  RND    4KiB (Q=  1, T= 1):    70.437 MB/s [  17196.5 IOPS] <    57.75 us>
+   Sequential Read (Q= 32,T= 1) :  3186.146 MB/s
+  Sequential Write (Q= 32,T= 1) :   753.050 MB/s
+  Random Read 4KiB (Q=  8,T= 8) :   676.770 MB/s [ 165227.1 IOPS]
+ Random Write 4KiB (Q=  8,T= 8) :   780.003 MB/s [ 190430.4 IOPS]
+  Random Read 4KiB (Q= 32,T= 1) :   218.712 MB/s [  53396.5 IOPS]
+ Random Write 4KiB (Q= 32,T= 1) :   254.096 MB/s [  62035.2 IOPS]
+  Random Read 4KiB (Q=  1,T= 1) :    40.266 MB/s [   9830.6 IOPS]
+ Random Write 4KiB (Q=  1,T= 1) :   119.965 MB/s [  29288.3 IOPS]
 
-[Write]
-  SEQ    1MiB (Q=  8, T= 1):  2249.173 MB/s [   2145.0 IOPS] <  3718.50 us>
-  SEQ    1MiB (Q=  1, T= 1):  2446.132 MB/s [   2332.8 IOPS] <   426.36 us>
-  RND    4KiB (Q= 32, T= 1):   561.700 MB/s [ 137133.8 IOPS] <   233.03 us>
-  RND    4KiB (Q=  1, T= 1):   211.229 MB/s [  51569.6 IOPS] <    19.20 us>
-
-Profile: Default
-   Test: 16 GiB (x1) [C: 39% (375/953GiB)]
-   Mode: [Admin]
-   Time: Measure 5 sec / Interval 5 sec 
-   Date: 2024/12/03 11:39:31
-     OS: Windows 10 Pro 22H2 [10.0 Build 19045] (x64)
+  Test : 16384 MiB [C: 21.1% (201.5/953.3 GiB)] (x1)  [Interval=5 sec]
+  Date : 2024/12/02 11:51:08
+    OS : Windows 10 Professional [10.0 Build 18363] (x64)
+  
