@@ -1,21 +1,25 @@
-
------------------------------------------------------------------------
-CrystalDiskMark 6.0.2 x64 (C) 2007-2018 hiyohiyo
-                          Crystal Dew World : https://crystalmark.info/
------------------------------------------------------------------------
+------------------------------------------------------------------------------
+CrystalDiskMark 8.0.6 x64 (C) 2007-2024 hiyohiyo
+                                  Crystal Dew World: https://crystalmark.info/
+------------------------------------------------------------------------------
 * MB/s = 1,000,000 bytes/s [SATA/600 = 600,000,000 bytes/s]
 * KB = 1000 bytes, KiB = 1024 bytes
 
-   Sequential Read (Q= 32,T= 1) :  3186.146 MB/s
-  Sequential Write (Q= 32,T= 1) :   753.050 MB/s
-  Random Read 4KiB (Q=  8,T= 8) :   676.770 MB/s [ 165227.1 IOPS]
- Random Write 4KiB (Q=  8,T= 8) :   780.003 MB/s [ 190430.4 IOPS]
-  Random Read 4KiB (Q= 32,T= 1) :   218.712 MB/s [  53396.5 IOPS]
- Random Write 4KiB (Q= 32,T= 1) :   254.096 MB/s [  62035.2 IOPS]
-  Random Read 4KiB (Q=  1,T= 1) :    40.266 MB/s [   9830.6 IOPS]
- Random Write 4KiB (Q=  1,T= 1) :   119.965 MB/s [  29288.3 IOPS]
+[Read]
+  SEQ    1MiB (Q=  8, T= 1):  3503.742 MB/s [   3341.4 IOPS] <  2388.67 us>
+  SEQ    1MiB (Q=  1, T= 1):  2847.751 MB/s [   2715.8 IOPS] <   367.79 us>
+  RND    4KiB (Q= 32, T= 1):   479.834 MB/s [ 117147.0 IOPS] <   271.49 us>
+  RND    4KiB (Q=  1, T= 1):    47.005 MB/s [  11475.8 IOPS] <    86.91 us>
 
-  Test : 16384 MiB [C: 21.1% (201.5/953.3 GiB)] (x1)  [Interval=5 sec]
-  Date : 2024/12/02 11:51:08
-    OS : Windows 10 Professional [10.0 Build 18363] (x64)
-  
+[Write]
+  SEQ    1MiB (Q=  8, T= 1):   963.918 MB/s [    919.3 IOPS] <  8668.55 us>
+  SEQ    1MiB (Q=  1, T= 1):  1296.810 MB/s [   1236.7 IOPS] <   807.83 us>
+  RND    4KiB (Q= 32, T= 1):   365.121 MB/s [  89140.9 IOPS] <   358.34 us>
+  RND    4KiB (Q=  1, T= 1):   194.857 MB/s [  47572.5 IOPS] <    20.83 us>
+
+Profile: Default
+   Test: 16 GiB (x1) [C: 21% (200/953GiB)]
+   Mode: [Admin]
+   Time: Measure 5 sec / Interval 5 sec 
+   Date: 2024/12/03 13:25:54
+     OS: Windows 10 Pro 1909 [10.0 Build 18363] (x64)
